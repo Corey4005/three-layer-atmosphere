@@ -4,7 +4,7 @@ This is an object-oriented model to simulate the radiation budget in the atmosph
 
 | Script         | Purpose     |
 | ---------------| ------------|
-| [Model Class](https://github.com/Corey4005/three-layer-atmosphere/blob/main/model/modelEquations.py) | A class to model atmospheric attributes with methods that opperate on them. |
+| [Model Class](https://github.com/Corey4005/three-layer-atmosphere/blob/main/model/modelEquations.py) | A class to model three atmospheric layers and associated methods. |
 | [Simulate Cloud Cover](https://github.com/Corey4005/three-layer-atmosphere/blob/main/model/model_cirrus_clouds.py) | This module demonstrates how the model can be iterated upon to simulate temperature changes in the upper atmosphere with increasing cirrus cloud cover. Returns a plot of temperature changes at each layer over small changes with reflectivity |
 | [Calculate Layer Temps](https://github.com/Corey4005/three-layer-atmosphere/blob/main/model/model_temps_with_input.py) | This is a module to show how a text file containing solar and infrared values for each layer can be read in and processed to model temperatures. Returns a print statement containing the calculated temperatures from radiation inputs. |
 | [Model Greenhouse Effect](https://github.com/Corey4005/three-layer-atmosphere/blob/main/model/model_varying_CO2.py) | This is a module to simulate changing CO2 and its effect on the layer temperatures. Injection of CO2 into the troposphere causes increased reflectance of infrared and decresed absorption. Returns a plot of layer temperatures with changing infrared reflectance |
