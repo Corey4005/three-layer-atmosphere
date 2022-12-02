@@ -3,7 +3,8 @@
 """
 Created on Mon Oct 17 13:54:53 2022
 
-This is a module to simulate changing CO2 and its effect on the surface temperature
+This is a module to simulate changing CO2 and its effect on the layer temperatures. Injection of CO2 into the troposphere causes
+increased reflectance of infrared and decresed absorption. 
 
 @author: coreywalker
 """
