@@ -3,7 +3,8 @@
 """
 
 This is a module to demonstrate the effect of small changes in solar reflectivity 
-in the stratosphere and absorption on the surface temperature. 
+in the stratosphere and absorption on the surface temperature. This would occur with the stratosphere being 
+injected with aerosols that increase solar reflection and decrease solar transmission. 
 
 @author: coreywalker
 """
@@ -28,7 +29,7 @@ l3_temps = [] #surface temp list
 row1_list = []
 alpha2_list = []
 
-#calcu
+#calculate steps that we want the for loop to go for
 steps = (0.058-0.038)/0.002
  #we want to increase reflectivity from 0.265-0.245 by 0.002
 for i in range(int(steps)):
@@ -40,7 +41,7 @@ for i in range(int(steps)):
     row1_list.append(obj.row1)
     alpha2_list.append(obj.alpha2)
     obj.row1+=0.002 #increase solar reflectance by 0.002
-    obj.tau1-=0.002 #decrease solar reflectance by 0.002
+    obj.tau1-=0.002 #decrease solar transmission by 0.002
     
 
 
