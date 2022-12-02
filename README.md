@@ -1,6 +1,8 @@
 # three-layer-atmosphere
 
-This is an object-oriented model to simulate the radiation budget in the atmosphere across three layers and associated temperature effects. This model was created by Dr. John R. Christy and M.P. Singh of the University of Alabama Huntsville. 
+This is an object-oriented model to simulate the radiation budget in the atmosphere across three layers and associated temperature effects. 
+
+Credit: This model was created by [Dr. John R. Christy](https://www.uah.edu/science/departments/atmospheric-earth-science/faculty-staff/dr-john-christy) at the University of Alabama Huntsville. 
 
 | Script         | Purpose     |
 | ---------------| ------------|
