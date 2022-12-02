@@ -57,7 +57,7 @@ while(surfaceNext>surface):
     print('\n')
     print("new step: ", count, '\n')
     obj.row3+=0.002 #solar reflectivity surface
-    obj.alpha3-=0.002 #solar transmission surface
+    obj.alpha3-=0.002 #solar absorption surface
     obj.calculateRadiationBudget()
     obj.getTemperatures(HF=True, Params='EBM30')
     surfaceNext = obj.T3
