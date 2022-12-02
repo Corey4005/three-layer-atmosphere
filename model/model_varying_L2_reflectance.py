@@ -4,7 +4,8 @@
 Created on Tue Nov 29 12:29:03 2022
 
 This is a module to demonstrate the effect of small changes in solar reflectivity 
-in the troposphere and absorption on the surface temperature. 
+in the troposphere and absorption on the surface temperature. This is to simulate the effect of aerosols on the troposphere. 
+Returns a plot after increasing solar reflectance and decreasing solar absorption. 
 
 @author: coreywalker
 """
